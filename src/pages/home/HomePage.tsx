@@ -1,3 +1,4 @@
+import { Loader } from "../../components/common/Loader"
 import { BasePage } from "../../components/layout/BasePage"
 
 export default () => {

@@ -1,5 +1,7 @@
+import '../../styles/_loader.scss'
 export const Loader = () => {
     return <div className="loader">
-        Please wait...
+        <div className="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     </div>
+
 }
