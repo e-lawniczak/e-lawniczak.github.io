@@ -7,6 +7,6 @@ const
 
 
 export const ProjectPages = [
-    { name: "Home Page", path: "/", element: <HomePage /> },
+    { name: "Home Page", path: "/*", element: <HomePage /> },
     { name: "About Page", path: "/about", element: <AboutPage /> }
 ] as ProjectPage[]
