@@ -1,0 +1,1 @@
+import{j as s}from"./index-IYZBlIJT.js";import{B as e}from"./BasePage-BrMoK5b9.js";const t=()=>s.jsx(e,{pageCssClass:"about-page",children:s.jsx("div",{className:"wrapper",children:s.jsx("h1",{children:"About me"})})});export{t as default};
