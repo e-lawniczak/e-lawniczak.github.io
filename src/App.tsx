@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { ProjectPages } from './components/common/ProjectPages';
 import './styles/appStyles.scss'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import { Loader } from './components/common/Loader';
@@ -11,7 +11,7 @@ import { Loader } from './components/common/Loader';
 
 const App = () => {
 
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     ProjectPages.map(p => {
       return {
         path: p.path,
