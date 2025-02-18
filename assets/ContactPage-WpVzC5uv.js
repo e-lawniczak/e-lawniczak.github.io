@@ -1,0 +1,1 @@
+import{j as a}from"./index-BAHXqHxX.js";import{B as s,P as e}from"./BasePage-DPJrfia2.js";const c=()=>a.jsx(s,{pageCssClass:"contact-page",children:a.jsx("div",{className:"wrapper",children:a.jsx(e,{children:"contact"})})});export{c as default};
