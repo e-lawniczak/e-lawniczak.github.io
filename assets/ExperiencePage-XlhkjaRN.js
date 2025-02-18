@@ -1,0 +1,1 @@
+import{j as e}from"./index-DRsw-Oxo.js";import{P as r}from"./PageTitle-Cz2LbDI6.js";import{B as s}from"./BasePage-yFt0Cilj.js";const t=()=>e.jsx(s,{pageCssClass:"experience-page",children:e.jsx("div",{className:"wrapper",children:e.jsx(r,{children:"Experience"})})});export{t as default};
