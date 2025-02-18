@@ -3,10 +3,19 @@ import React from 'react'
 
 const
     HomePage = React.lazy(() => import('../../pages/home/HomePage')),
-    AboutPage = React.lazy(() => import('../../pages/about/AboutPage'));
+    ExperiencePage = React.lazy(() => import('../../pages/experience/ExperiencePage')),
+    SkillsPage = React.lazy(() => import('../../pages/skills/SkillsPage')),
+    ContactPage = React.lazy(() => import('../../pages/contact/ContactPage')),
+    ProjectsPage = React.lazy(() => import('../../pages/projects/ProjectsPage')),
+    EducationPage = React.lazy(() => import('../../pages/education/EducationPage'))
 
 
 export const ProjectPages = [
-    { name: "Home Page", path: "/*", element: <HomePage /> },
-    { name: "About Page", path: "/about", element: <AboutPage /> }
+    { label: "Home", name: "Home Page", path: "/", element: <HomePage /> },
+    { label: "Home", name: "Home Page", path: "/*", element: <HomePage /> },
+    { label: "Experience", name: "Experience Page", path: "/Experience", element: <ExperiencePage /> },
+    { label: "Skills", name: "Experience Page", path: "/Skills", element: <SkillsPage /> },
+    { label: "Contact", name: "Contact Page", path: "/Contact", element: <ContactPage /> },
+    { label: "Projects", name: "Projects Page", path: "/Projects", element: <ProjectsPage /> },
+    { label: "Education", name: "Education Page", path: "/Education", element: <EducationPage /> },
 ] as ProjectPage[]

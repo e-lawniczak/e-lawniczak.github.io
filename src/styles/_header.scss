@@ -1,0 +1,53 @@
+header {
+    padding: 10px;
+
+    .wrapper {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .social-links {
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .social-link {
+        $socialDim:35px;
+        width: $socialDim;
+        height: $socialDim;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: $socialDim;
+        cursor: pointer;
+
+        &.linked-in {
+            background-image: url('/img/linked_in_white.png');
+        
+            &.light-mode {
+                background-image: url('/img/linked_in_dark.png');
+            }
+        }
+        &.git {
+            background-image: url('/img/git_white.png');
+        
+            &.light-mode {
+                background-image: url('/img/git_dark.png');
+            }
+        }
+        &.email {
+            background-image: url('/img/email_white.png');
+        
+            &.light-mode {
+                background-image: url('/img/email_dark.png');
+            }
+        }
+    }
+}
