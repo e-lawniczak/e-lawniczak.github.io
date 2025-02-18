@@ -13,8 +13,8 @@ const
 export const ProjectPages = [
     { label: "Home", name: "Home Page", path: "/", element: <HomePage /> },
     { label: "Home", name: "Home Page", path: "/*", element: <HomePage /> },
-    { label: "Experience", name: "Experience Page", path: "/Experience", element: <ExperiencePage /> },
     { label: "Skills", name: "Experience Page", path: "/Skills", element: <SkillsPage /> },
+    { label: "Experience", name: "Experience Page", path: "/Experience", element: <ExperiencePage /> },
     { label: "Projects", name: "Projects Page", path: "/Projects", element: <ProjectsPage /> },
     { label: "Education", name: "Education Page", path: "/Education", element: <EducationPage /> },
     { label: "Contact", name: "Contact Page", path: "/Contact", element: <ContactPage /> },
