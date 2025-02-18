@@ -24,7 +24,7 @@ export const SideBar = () => {
             {menuElements}
         </div>
         <div className="copy">
-            &copy; Eryk Ławniczak 2025, All rights reserved
+            &copy; Eryk Ławniczak 2025, All rights reserved.
         </div>
 
     </nav>
