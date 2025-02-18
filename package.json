@@ -10,7 +10,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "fulldeploy": "npm run predeploy && npm run deploy"
   },
   "dependencies": {
     "react": "^18.3.1",

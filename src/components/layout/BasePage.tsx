@@ -6,7 +6,7 @@ import { SideBar } from "./SideBar"
 export const BasePage = (props: { children: any, pageCssClass: string, [x: string]: any }) => {
     const
         { children, pageCssClass } = props
-    const [mode, setMode] = useState('light')
+    const [_, setMode] = useState('light')
     const onSelectMode = (mode: string) => {
         setMode(mode)
         if (mode === 'dark')
