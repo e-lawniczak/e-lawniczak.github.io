@@ -1,0 +1,1 @@
+import{j as a}from"./index-CU1_mivs.js";import{B as e,P as s}from"./BasePage-CEi123hZ.js";const i=()=>a.jsx(e,{pageCssClass:"education-page",children:a.jsx("div",{className:"wrapper",children:a.jsx(s,{children:"Education"})})});export{i as default};
