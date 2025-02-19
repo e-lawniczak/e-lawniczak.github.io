@@ -19,7 +19,7 @@ export default () => {
                 I am passionate problem-solver with all-round education in most of the popular programming languages. From <b>C/C++</b> trough <b>C#</b> and <b>JAVA</b> to <b>JavaScript</b> and <b>Python</b>.
             </p>
             <p>
-                During my uni I was working part-time as a fullstack developer at Thinq. Working with technologies like <b>.NET</b>, <b>ASP.NET</b>, <b>React</b>, <b>Azure Dev Ops</b>, <b>Git</b> and many more.
+                During my uni I was working part-time as a fullstack developer at Thinq. I was working with technologies like <b>.NET</b>, <b>ASP.NET</b>, <b>React</b>, <b>Azure Dev Ops</b>, <b>Git</b> and many more.
             </p>
             <p>
                 I never stop learning and I take every opportunity to develop my skills wether they are technical or soft skills. I started weekend part-time studies with psychology as my major.
