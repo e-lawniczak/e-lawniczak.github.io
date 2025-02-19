@@ -5,13 +5,13 @@ import './_home.scss'
 export default () => {
     return <BasePage pageCssClass="home-page">
         <div className="wrapper">
-            <PageTitle>About</PageTitle>
             <div className="quick-links">
                 <h3>Important stuff:</h3>
                 <NavLink to={"/Experience"}>Expierience</NavLink>
                 <NavLink to={"/Skills"}>Skills</NavLink>
                 <NavLink to={"/Projects"}>Projects</NavLink>
             </div>
+            <PageTitle>About</PageTitle>
             <p>
                 Hey! I'm Eryk, a passionate <b>software developer</b>, uni grad with <b>master's degree</b> in computer science complete with IT technichan education from technical college.
             </p>
