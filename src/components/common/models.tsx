@@ -5,3 +5,30 @@ export interface ProjectPage {
     label?: string,
     element: any,
 }
+
+export interface IChronologyEntry {
+    dateStart: Date,
+    dateEnd: Date | null,
+    title: string
+}
+export interface TechStack {
+    techName: string,
+    techIcon?: string
+}
+export interface EducationInfo extends IChronologyEntry {
+    degree: string,
+    institution: string,
+    major?: string
+}
+export interface WorkInfo extends IChronologyEntry {
+    company: string,
+    description: any,
+    techStack: TechStack[],
+    workplaceLogo: string,
+}
+export interface ProjectInfo {
+    projectTitle: string,
+    githubUrl: string,
+    description: any,
+    techStack: TechStack[]
+}
