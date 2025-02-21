@@ -11,13 +11,13 @@ const workInfo = [
         description: <>
             <b>Tasks as a Fullstack Web Developer </b>:
             <ul>
-                <li>Developing web applications</li>
+                <li>Engineereing and maintaining web applications</li>
                 <li>Creating static websites</li>
                 <li>Time management features</li>
                 <li>Database querying</li>
                 <li>AI research</li>
                 <li>Pipeline management - builds, releases, web hooks</li>
-                <li>PC servicing and maintennance</li>
+                {/* <li>PC servicing and maintennance</li> */}
             </ul>
         </>,
         techStack: [
@@ -29,6 +29,7 @@ const workInfo = [
             { techName: "C#" },
             { techName: "ASP.NET" },
             { techName: "Azure Dev Ops" },
+            { techName: "CI/CD Pipelines" },
         ]
     },
 ] as WorkInfo[]
