@@ -20,9 +20,11 @@ const WorkEntry = (props: { info: WorkInfo, className?: string, }) => {
     const
         { info } = props;
     return <>
-        <h4>At {info.company}</h4>
-        <p>{info.description} </p>
         <TechStackRow stack={info.techStack} />
+        <div className="wrk">
+            <h4>{info.company}</h4>
+            <p>{info.description} </p>
+        </div>
 
     </>
 }
@@ -38,8 +40,8 @@ const ProjectEntry = (props: { info: ProjectInfo, className?: string }) => {
 }
 const TechStackRow = (props: { stack: TechStack[] }) => {
     return <>
-        <b>Tech Stack</b>:<br />
         <div className="tech-stack">
+            <b>Tech Stack:</b>
             {props.stack.map(t => t.techName).join(", ")}
         </div>
     </>
@@ -64,15 +66,17 @@ export const ChronologyEntry = (props: Entry) => {
     return <div className="entry-container">
         <div className="entry-side-line"></div>
         <div className={[`entry`, className, `${entryType}-entry`].join(" ")}>
-            <div className="entry-title">
-                <h3>{chrInfo.title}</h3>
+            <div className="top">
+                <div className="entry-title">
+                    <h3>{chrInfo.title}</h3>
+                </div>
+                <div className="entry-date">
+                    {entryDate}
+                </div>
             </div>
-            <div className="entry-date">
-                {entryDate}
-            </div>
-            <div className={["entry-content", entryContentClass].join(" ")}>
-                {entryContent}
-            </div>
+            {/* <div className={["entry-content", entryContentClass].join(" ")}> */}
+            {entryContent}
+            {/* </div> */}
         </div>
     </div>
 }
