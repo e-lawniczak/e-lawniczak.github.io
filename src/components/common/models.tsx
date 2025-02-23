@@ -26,8 +26,10 @@ export interface WorkInfo extends IChronologyEntry {
     techStack: TechStack[],
     workplaceLogo: string,
 }
+export type ProjectType = "web" | "game" | "all"
 export interface ProjectInfo extends IChronologyEntry {
     githubUrl: string,
     description: any,
-    techStack: TechStack[]
+    techStack: TechStack[],
+    type: ProjectType
 }

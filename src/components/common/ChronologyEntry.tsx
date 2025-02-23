@@ -1,5 +1,6 @@
 import { IChronologyEntry, EducationInfo, ProjectInfo, TechStack, WorkInfo } from "./models";
 import '../../styles/_chronologyEntry.scss'
+import { useState } from "react";
 
 interface Entry {
     info: EducationInfo | WorkInfo | ProjectInfo,
@@ -23,18 +24,21 @@ const WorkEntry = (props: { info: WorkInfo, className?: string, }) => {
         <TechStackRow stack={info.techStack} />
         <div className="wrk">
             <h4>{info.company}</h4>
-            <p>{info.description} </p>
+            <p>{info.description}</p>
         </div>
 
     </>
 }
 const ProjectEntry = (props: { info: ProjectInfo, className?: string }) => {
     const
-        { info } = props;
+        { info } = props,
+        [showDesc, setShow] = useState(false)
+
     return <>
-        <a href={info.githubUrl}>{info.githubUrl}</a>
+        <span>GitHub link: <a href={info.githubUrl}>{info.githubUrl}</a></span>
         <TechStackRow stack={info.techStack} />
-        <p className="description">{info.description}</p>
+        <button className="show-desc" onClick={() => setShow(!showDesc)}>{showDesc ? "Hide" : "Show"} description</button>
+        {showDesc ? <p onClick={() => setShow(false)} className="description">{info.description}</p> : null}
     </>
 }
 const TechStackRow = (props: { stack: TechStack[] }) => {

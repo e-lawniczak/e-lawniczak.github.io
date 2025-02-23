@@ -80,6 +80,8 @@
     }
 }
 
+
+
 .entry {
     display: grid;
     grid-template-columns: 1fr;
@@ -87,10 +89,32 @@
     &.pro-entry {
         display: grid;
         grid-template-columns: 1fr;
-        gap:10px;
+        gap: 10px;
+
+        button {
+            width: 50%;
+            margin: 0 auto;
+            text-transform: uppercase;
+            padding: 10px;
+            background-color: var(--buttons);
+            border: none;
+            &:hover{
+                background-color: var(--buttons-hover);
+            }
+        }
 
         .description {
             font-size: 1em;
+            cursor: pointer;
+        }
+
+        .tech-stack {
+            border-bottom: 1px solid var(--text);
+            padding-bottom: 20px;
+        }
+
+        .show-desc {
+            cursor: pointer;
         }
     }
 
@@ -175,8 +199,9 @@
 }
 
 .tech-stack {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
     font-size: 1.2em;
+
+    b {
+        margin-right: 5px;
+    }
 }

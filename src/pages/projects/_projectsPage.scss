@@ -1,0 +1,40 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 5px;
+
+    span {
+        padding: 5px 0;
+    }
+
+    .tab {
+        text-transform: uppercase;
+        cursor: pointer;
+        padding: 5px 10px;
+        border: 1px solid transparent;
+
+    }
+
+    .tab.current {
+        color: var(--link);
+        border: 1px solid var(--text);
+    }
+}
+
+.project-list {
+    margin-top: 15px;
+
+    .entry-side-line {
+        display: none;
+    }
+
+    .entry {
+        margin-left: 0;
+    }
+    @media screen and (max-width: 1000px) {
+        &.entry-list {
+            margin-left: 0;
+        }
+    }
+}
