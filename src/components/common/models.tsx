@@ -7,8 +7,8 @@ export interface ProjectPage {
 }
 
 export interface IChronologyEntry {
-    dateStart: Date,
-    dateEnd: Date | null,
+    dateStart?: Date | null,
+    dateEnd?: Date | null,
     title: string
 }
 export interface TechStack {
@@ -26,8 +26,7 @@ export interface WorkInfo extends IChronologyEntry {
     techStack: TechStack[],
     workplaceLogo: string,
 }
-export interface ProjectInfo {
-    projectTitle: string,
+export interface ProjectInfo extends IChronologyEntry {
     githubUrl: string,
     description: any,
     techStack: TechStack[]

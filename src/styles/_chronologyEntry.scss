@@ -84,6 +84,16 @@
     display: grid;
     grid-template-columns: 1fr;
 
+    &.pro-entry {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:10px;
+
+        .description {
+            font-size: 1em;
+        }
+    }
+
     &.wrk-entry {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -107,7 +117,8 @@
                 padding-top: 10px;
                 margin-top: 5px;
             }
-            p{
+
+            p {
                 text-align: left;
             }
         }
@@ -167,4 +178,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+    font-size: 1.2em;
 }

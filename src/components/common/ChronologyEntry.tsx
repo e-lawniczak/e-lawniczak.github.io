@@ -32,10 +32,9 @@ const ProjectEntry = (props: { info: ProjectInfo, className?: string }) => {
     const
         { info } = props;
     return <>
-        <h4>{info.projectTitle}</h4>
         <a href={info.githubUrl}>{info.githubUrl}</a>
         <TechStackRow stack={info.techStack} />
-        <p>{info.description}</p>
+        <p className="description">{info.description}</p>
     </>
 }
 const TechStackRow = (props: { stack: TechStack[] }) => {
@@ -55,11 +54,11 @@ export const ChronologyEntry = (props: Entry) => {
             entryType == "edu" ? <EducationEntry info={info as EducationInfo} className={entryContentClass} /> :
                 entryType == "pro" ? <ProjectEntry info={info as ProjectInfo} className={entryContentClass} /> :
                     <WorkEntry info={info as WorkInfo} className={entryContentClass} />,
-        yearStart = chrInfo.dateStart.getFullYear(),
-        yearEnd = !!chrInfo.dateEnd ? chrInfo.dateEnd.getFullYear() : null,
-        monthStart = chrInfo.dateStart.toLocaleString('en', { month: 'short' }),
-        monthEnd = !!chrInfo.dateEnd ? chrInfo.dateEnd.toLocaleString('en', { month: 'short' }) : null,
-        entryDate = !!chrInfo.dateEnd ? `${monthStart} ${yearStart} - ${monthEnd} ${yearEnd}` : `${monthStart} ${yearStart} - present`
+        yearStart = !!chrInfo?.dateStart ? chrInfo.dateStart.getFullYear() : null,
+        yearEnd = !!chrInfo?.dateEnd ? chrInfo.dateEnd.getFullYear() : null,
+        monthStart = !!chrInfo?.dateStart ? chrInfo.dateStart.toLocaleString('en', { month: 'short' }) : null,
+        monthEnd = !!chrInfo?.dateEnd ? chrInfo.dateEnd.toLocaleString('en', { month: 'short' }) : null,
+        entryDate = !!chrInfo?.dateEnd ? `${monthStart} ${yearStart} - ${monthEnd} ${yearEnd}` : `${monthStart} ${yearStart} - present`
 
 
 
@@ -71,7 +70,7 @@ export const ChronologyEntry = (props: Entry) => {
                     <h3>{chrInfo.title}</h3>
                 </div>
                 <div className="entry-date">
-                    {entryDate}
+                    {!!chrInfo.dateStart && entryDate}
                 </div>
             </div>
             {/* <div className={["entry-content", entryContentClass].join(" ")}> */}
