@@ -33,7 +33,7 @@ export interface ProjectInfo extends IChronologyEntry {
     techStack: TechStack[],
     type: ProjectType
 }
-export type SkillExperience = "Using at work" | "Used at Uni" | "Using personally"
+export type SkillExperience = "Using at work" | "Used at uni" | "Using personally"
 export type SectionType = "scripting" | "engine" | "web" | "langs"
 export interface SkillEntry{
     skill: string,
