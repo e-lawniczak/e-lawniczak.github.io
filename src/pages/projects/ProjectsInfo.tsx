@@ -125,8 +125,8 @@ export const projectsInfo = [
             Unity made shooter prototype. My first Unity project.
         </>,
         techStack: [
-            { techName: "C#" },
             { techName: "Unity" },
+            { techName: "C#" },
         ],
         type: "game"
     },

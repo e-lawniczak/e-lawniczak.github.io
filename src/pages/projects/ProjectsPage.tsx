@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { ChronologyEntry } from "../../components/common/ChronologyEntry"
 import { EntryList } from "../../components/common/EntryList"
-import { ProjectInfo, ProjectType } from "../../components/common/models"
+import {  ProjectType } from "../../components/common/models"
 import { PageTitle } from "../../components/common/PageTitle"
 import { BasePage } from "../../components/layout/BasePage"
 import './_projectsPage.scss'
