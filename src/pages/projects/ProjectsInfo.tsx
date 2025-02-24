@@ -40,8 +40,6 @@ export const projectsInfo = [
     {
         title: "Heroes of Might & Magic - Uni Style Prototype", githubUrl: "",
         description: <>
-            Due to security settings I cannot link the source code.
-            <br /><br />
             During my OOP classes we were tasked to recreate basic mechanics of HoMM game in <b>JAVA</b> as a group in <b>TDD</b> development technique. We were split up in groups of 2 to 3 people. Together with my friend I was responsible for implementing map fields & map generation. We sucessfuly implemented impassable obstacles, destroyable obstacles, fields that do damage, and we prepared field type that would buff or debuff units that pass trough. Fields were implemented using abstraction, and <b>factory pattern</b>.
             <br /><br />
             Aside form fields we also implemented separate map creator gui, that allows user to create battle maps with special fields and export it to JSON format. They could also be further read in battle-gui to change the map.
