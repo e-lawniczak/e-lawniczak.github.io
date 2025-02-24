@@ -38,8 +38,10 @@ export const projectsInfo = [
         type: "web"
     },
     {
-        title: "Heroes of Might & Magic - Uni Style Prototype", githubUrl: "https://github.com/software-wizard/UAM_ZIMA_2022_v2.git",
+        title: "Heroes of Might & Magic - Uni Style Prototype", githubUrl: "",
         description: <>
+            Due to security settings I cannot link the source code.
+            <br /><br />
             During my OOP classes we were tasked to recreate basic mechanics of HoMM game in <b>JAVA</b> as a group in <b>TDD</b> development technique. We were split up in groups of 2 to 3 people. Together with my friend I was responsible for implementing map fields & map generation. We sucessfuly implemented impassable obstacles, destroyable obstacles, fields that do damage, and we prepared field type that would buff or debuff units that pass trough. Fields were implemented using abstraction, and <b>factory pattern</b>.
             <br /><br />
             Aside form fields we also implemented separate map creator gui, that allows user to create battle maps with special fields and export it to JSON format. They could also be further read in battle-gui to change the map.
@@ -50,44 +52,6 @@ export const projectsInfo = [
             { techName: "Maven" },
         ],
         type: "all"
-    },
-    {
-        title: "PlantHub", githubUrl: "https://github.com/e-lawniczak/plant-hub.git",
-        description: <>
-            Project made in group of 3 as part of Mobile Systems course. It's a prototype of web application that allows it's users to share plants. Like any trading platform it allows it's users to post offers with details of a plant, description and location allowing to exchange unwanted plants and help preserving them.
-            <br /><br />
-            My job in the project was creting both front-end and back-end part of CRUD regarding offers and images attached to those offers, liking users. I was also responsible for creting basic components and core project parts such as routing on the front-end side.
-        </>,
-        techStack: [
-            { techName: "React" },
-            { techName: "Typescript" },
-            { techName: "JS" },
-            { techName: "CSS" },
-            { techName: "HTML" },
-            { techName: "JAVA" },
-            { techName: "Springboot Framework" },
-            { techName: "Maven" },
-        ],
-        type: "web"
-    },
-    {
-        title: "PlantHub", githubUrl: "https://github.com/e-lawniczak/plant-hub.git",
-        description: <>
-            Project made in group of 3 as part of Mobile Systems course. It's a prototype of web application that allows it's users to share plants. Like any trading platform it allows it's users to post offers with details of a plant, description and location allowing to exchange unwanted plants and help preserving them.
-            <br /><br />
-            My job in the project was creting both front-end and back-end part of CRUD regarding offers and images attached to those offers, liking users. I was also responsible for creting basic components and core project parts such as routing on the front-end side.
-        </>,
-        techStack: [
-            { techName: "React" },
-            { techName: "Typescript" },
-            { techName: "JS" },
-            { techName: "CSS" },
-            { techName: "HTML" },
-            { techName: "JAVA" },
-            { techName: "Springboot Framework" },
-            { techName: "Maven" },
-        ],
-        type: "web"
     },
     {
         title: "PlantHub", githubUrl: "https://github.com/e-lawniczak/plant-hub.git",

@@ -35,7 +35,7 @@ const ProjectEntry = (props: { info: ProjectInfo, className?: string }) => {
         [showDesc, setShow] = useState(false)
 
     return <>
-        <span>GitHub link: <a href={info.githubUrl}>{info.githubUrl}</a></span>
+        {info.githubUrl.length > 0 && <span>GitHub link: <a href={info.githubUrl}>{info.githubUrl}</a></span>}
         <TechStackRow stack={info.techStack} />
         <button className="show-desc" onClick={() => setShow(!showDesc)}>{showDesc ? "Hide" : "Show"} description</button>
         {showDesc ? <p onClick={() => setShow(false)} className="description">{info.description}</p> : null}

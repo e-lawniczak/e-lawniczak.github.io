@@ -125,7 +125,12 @@ body .mobile {
     letter-spacing: 2px;
     font-size: 2.2em;
     text-transform: capitalize;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+
+}
+
+p+.page-title {
+    margin-top: 30px;
 }
 
 footer {
@@ -142,9 +147,7 @@ p {
     padding: 10px 0px;
     text-align: justify;
 
-    @media screen and (max-width:$mobileRes) {
-        text-align: left;
-    }
+
 }
 
 a {

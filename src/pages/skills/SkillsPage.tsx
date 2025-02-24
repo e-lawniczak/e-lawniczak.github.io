@@ -55,7 +55,7 @@ export default () => {
                 <div className="tr">
                     <div className="th">Skill</div><div className="th">Experience</div>
                 </div>
-                {skills.filter((s, idx) => s.section == "web").map((s, idx) => {
+                {skills.filter((s) => s.section == "web").map((s, idx) => {
                     return <SkillRow key={idx} data={s} idx={idx} />
                 })}
                 <div className="section-name">
