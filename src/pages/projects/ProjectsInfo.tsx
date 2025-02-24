@@ -13,9 +13,6 @@ export const projectsInfo = [
         techStack: [
             { techName: "React" },
             { techName: "Typescript" },
-            { techName: "JS" },
-            { techName: "CSS" },
-            { techName: "HTML" },
             { techName: "Spring" },
             { techName: "Gradle" },
         ],
@@ -29,9 +26,6 @@ export const projectsInfo = [
         techStack: [
             { techName: "React" },
             { techName: "Typescript" },
-            { techName: "JS" },
-            { techName: "CSS" },
-            { techName: "HTML" },
             { techName: ".NET" },
             { techName: "C#" },
         ],
@@ -61,9 +55,6 @@ export const projectsInfo = [
         techStack: [
             { techName: "React" },
             { techName: "Typescript" },
-            { techName: "JS" },
-            { techName: "CSS" },
-            { techName: "HTML" },
             { techName: "JAVA" },
             { techName: "Springboot Framework" },
             { techName: "Maven" },
@@ -100,8 +91,8 @@ export const projectsInfo = [
             This projects is a recreation of Shot'em Up tutorial.
         </>,
         techStack: [
-            { techName: "C++" },
             { techName: "SDL2" },
+            { techName: "C++" },
         ],
         type: "game"
     },

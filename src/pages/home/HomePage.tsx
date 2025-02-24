@@ -8,7 +8,6 @@ export default () => {
             <div className="quick-links">
                 <h3>Important stuff:</h3>
                 <NavLink to={"/Experience"}>Expierience</NavLink>
-                <NavLink to={"/Skills"}>Skills</NavLink>
                 <NavLink to={"/Projects"}>Projects</NavLink>
             </div>
             <PageTitle>About me</PageTitle>
@@ -27,14 +26,23 @@ export default () => {
             <p>
                 With my hollistic education I bring more than just a bootcamp knowledge restricted to one technology and programming language. I treat technologies as tools to get the job done. Strong problem-solving and algorithmic thinking skills are the backbone of my day to day work.
             </p>
-            <PageTitle>My focus & motivations</PageTitle>
+            <h3>Main skills</h3>
+            <p>
+                Troughout my education and work I've worked with a lot o languages and technologies. I feel confident in learning and using any of them but I prefer working mainly with:
+                <ul>
+                    <li><b>React/Typescript/JavaScript</b></li>
+                    <li><b>C#</b></li>
+                    <li><b>JAVA</b></li>
+                </ul>
+            </p>
+            <h3>My focus & motivations</h3>
             <p>
                 I am looking to improve my programming skills working closely with code. Positions such as backend developer or software developer that will help me improve in languages such as C# or JAVA are my key points of interest in my career.
             </p>
             <p>
                 I'd like to become a part of a team and have my own responsibilities to take care of inside of it. Troughout my studies and in work environment I worked in teams of varying sizes from pairs to teams of 21 people all working on different parts of the same application.
             </p>
-            <PageTitle>Hobbies and interests</PageTitle>
+            <h3>Hobbies and interests</h3>
             <p>
                 I'm intereted in a lot of things. In the back of my mind, there is always something new the I'd like to try. My current hobbies that take up most of my free time are tabletop roleplaying games such as D&D or Cthulu, video games, gym, and psychology. I attend university part-time on weekends with major in psychology.
             </p>

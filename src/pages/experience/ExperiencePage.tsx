@@ -23,9 +23,6 @@ const workInfo = [
         techStack: [
             { techName: "React" },
             { techName: "Typescript" },
-            { techName: "HTML" },
-            { techName: "JS" },
-            { techName: "CSS" },
             { techName: "C#" },
             { techName: "ASP.NET" },
             { techName: "Azure Dev Ops" },
