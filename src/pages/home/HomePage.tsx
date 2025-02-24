@@ -35,6 +35,7 @@ export default () => {
                     <li><b>JAVA</b></li>
                 </ul>
             </p>
+            <p>Developing many applications over many years I obviously am proficient with <b>SQL</b>, <b>Git</b>, <b>Docker</b> and <b>agile</b> practices</p>
             <h3>My focus & motivations</h3>
             <p>
                 I am looking to improve my programming skills working closely with code. Positions such as backend developer or software developer that will help me improve in languages such as C# or JAVA are my key points of interest in my career.
