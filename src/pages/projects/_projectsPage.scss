@@ -24,17 +24,40 @@
 
 .project-list {
     margin-top: 15px;
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+    justify-content: center;
+    align-content: stretch;
+    gap: 20px;
+
+    .entry-container {
+        align-self: stretch;
+        justify-self: stretch;overflow: visible;
+    }
 
     .entry-side-line {
         display: none;
     }
 
     .entry {
+        margin-bottom: 0;
         margin-left: 0;
     }
+
     @media screen and (max-width: 1000px) {
         &.entry-list {
             margin-left: 0;
+            grid-template-columns: 1fr;
+
         }
+        .entry-container{
+            margin: 0 auto;
+        }
+    }
+}
+.pro-entry{
+    .entry-title{
+        display: grid;
+        grid-template-columns: 1fr auto;
     }
 }

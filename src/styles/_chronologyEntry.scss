@@ -85,6 +85,7 @@
 .entry {
     display: grid;
     grid-template-columns: 1fr;
+    border-radius: 5px;
 
     &.pro-entry {
         display: grid;
@@ -95,10 +96,12 @@
             width: 50%;
             margin: 0 auto;
             text-transform: uppercase;
+            border-radius: 5px;
             padding: 10px;
             background-color: var(--buttons);
             border: none;
-            &:hover{
+
+            &:hover {
                 background-color: var(--buttons-hover);
             }
         }
@@ -199,9 +202,21 @@
 }
 
 .tech-stack {
-    font-size: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 
     b {
         margin-right: 5px;
+    }
+
+    .tech {
+        font-size: .8em;
+        background-color: var(--link-opacity);
+        border: 1px solid rgb(82, 160, 255);
+        border-radius: 5px;
+        padding: 2px 4px;
+        color: #fff;
+        font-weight: bold;
     }
 }

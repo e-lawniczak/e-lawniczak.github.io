@@ -2,7 +2,7 @@ import { ProjectInfo } from "../../components/common/models";
 
 export const projectsInfo = [
     {
-        title: "LangCard Engineer Degree Project", githubUrl: "https://github.com/e-lawniczak/langcard-pp.git", description: <>LangCard is my largest non comercial project to date. We finished it as a group of 5 as part of our Engineer's Degree. It is an online language learning platform that features a variety of exercices that help revise and memorize vocabulary in English, German, Spanish and French.<br /> <br />
+        title: "LangCard ", githubUrl: "https://github.com/e-lawniczak/langcard-pp.git", description: <>LangCard is my largest non comercial project to date. We finished it as a group of 5 as part of our Engineer's Degree. It is an online language learning platform that features a variety of exercices that help revise and memorize vocabulary in English, German, Spanish and French.<br /> <br />
 
             It features teacher/student type accounts and allows for creating classes that students can join that have separate Learning Units and exercises inside those units. Process of creating exercises is enchaced by OCR, automatic word translation that can be manually changed if needed and periodic systematical exercise generation. The system can also generate reports with scores and student performance for further human analysis.
             <br /> <br />
@@ -19,7 +19,7 @@ export const projectsInfo = [
         type: "web"
     },
     {
-        title: "Pizzeria site CMS", githubUrl: "https://github.com/e-lawniczak/Cms.git",
+        title: "Pizzeria CMS", githubUrl: "https://github.com/e-lawniczak/Cms.git",
         description: <>
             This poroject's aim was to create functional <b>CMS</b>. Together with my friend we created this from scratch using <b>.NET</b> and <b>React</b>. Logged user can manage the contents of the site such as images, text, titles, links, amount of elements in specific sections.<br /> <br /> My tasks were front-end focused. I was responsible for implementing visual design and making it possible for the user to make API calls needed to manage the site. I implemented everything that is on the front-end side.
         </>,
@@ -32,7 +32,7 @@ export const projectsInfo = [
         type: "web"
     },
     {
-        title: "Heroes of Might & Magic - Uni Style Prototype", githubUrl: "",
+        title: "Turn based game prototype", githubUrl: "",
         description: <>
             During my OOP classes we were tasked to recreate basic mechanics of HoMM game in <b>JAVA</b> as a group in <b>TDD</b> development technique. We were split up in groups of 2 to 3 people. Together with my friend I was responsible for implementing map fields & map generation. We sucessfuly implemented impassable obstacles, destroyable obstacles, fields that do damage, and we prepared field type that would buff or debuff units that pass trough. Fields were implemented using abstraction, and <b>factory pattern</b>.
             <br /><br />

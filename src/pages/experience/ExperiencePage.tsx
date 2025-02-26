@@ -16,7 +16,7 @@ const workInfo = [
                 <li>Time management features</li>
                 <li>Database querying</li>
                 <li>AI research</li>
-                <li>Pipeline management - builds, releases, web hooks</li>
+                <li>Pipeline management - CI/CD, builds, releases, web hooks </li>
                 {/* <li>PC servicing and maintennance</li> */}
             </ul>
         </>,
