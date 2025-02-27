@@ -17,8 +17,11 @@
     }
 
     .tab.current {
-        color: var(--link);
+        color: var(--tex);
         border: 1px solid var(--text);
+        border-radius: 5px;
+        background-color: var(--buttons);
+        font-weight: 600;
     }
 }
 
@@ -46,13 +49,11 @@
 
     @media screen and (max-width: 1000px) {
         &.entry-list {
-            margin-left: 0;
             grid-template-columns: 1fr;
-
+            max-width: 600px;
+            margin: 15px auto;
         }
-        .entry-container{
-            margin: 0 auto;
-        }
+      
     }
 }
 .pro-entry{

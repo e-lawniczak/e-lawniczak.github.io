@@ -6,14 +6,12 @@ export default () => {
     return <BasePage pageCssClass="contact-page">
         <div className="wrapper">
             <PageTitle>contact</PageTitle>
-            <p>
-                <h3>Media links</h3>
-                <SocialLinks />
-            </p>
-            <p>
-                <h3>Email</h3>
-                <a className="mail-link" href="mailto:eryk.lawniczak@gmail.com">eryk.lawniczak@gmail.com</a>
-            </p>
+            <div className="contact">
+                    <h3>Social media</h3>
+                    <SocialLinks />
+                    <h3>Email</h3>
+                    <a className="mail-link" href="mailto:eryk.lawniczak@gmail.com">eryk.lawniczak@gmail.com</a>
+            </div>
         </div>
     </BasePage>
 }

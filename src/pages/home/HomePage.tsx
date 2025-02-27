@@ -6,7 +6,6 @@ export default () => {
     return <BasePage pageCssClass="home-page">
         <div className="wrapper">
             <div className="quick-links">
-                <h3>Important stuff:</h3>
                 <NavLink to={"/Experience"}>Expierience</NavLink>
                 <NavLink to={"/Projects"}>Projects</NavLink>
             </div>

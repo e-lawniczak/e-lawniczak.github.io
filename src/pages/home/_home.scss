@@ -1,5 +1,9 @@
 @import '../../styles/_vars';
 
+
+
+
+
 .home-page {
     p {
         width: 70%;
@@ -15,6 +19,8 @@
         margin-bottom: 45px;
         justify-content: center;
         align-items: center;
+        border-bottom: 3px solid var(--text);
+        padding-bottom: 15px;
 
         a {
             font-size: 1.5em;
@@ -52,7 +58,6 @@
             justify-content: flex-start;
             align-items: flex-start;
             flex-direction: column;
-            width: 100%;
             gap: 20px;
             margin-top: 30px;
 
@@ -62,7 +67,20 @@
 
         }
     }
-    h3{
+
+    h3 {
+        width: 70%;
         margin: 20px 0 10px 0;
+        border-bottom: 1px solid var(--text);
+        padding-bottom: 5px;
+    }
+
+    @media screen and (max-width:$mobileRes) {
+
+        p,
+        h3,
+        .quick-links {
+            width: 100%;
+        }
     }
 }
