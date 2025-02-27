@@ -24,7 +24,7 @@ const workInfo = [
             { techName: "React" },
             { techName: "Typescript" },
             { techName: "C#" },
-            { techName: "ASP.NET" },
+            { techName: ".NET" },
             { techName: "Azure Dev Ops" },
             { techName: "CI/CD Pipelines" },
         ]
