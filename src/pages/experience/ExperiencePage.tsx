@@ -14,7 +14,7 @@ const workInfo = [
                <li>Developing new applications with .NET and React</li>
                <li>Creating full functionalities from back end to front end based on customer needs</li>
                <li>Maintaining and supporting ongoing projects</li>
-               <li>Managing Azure Data Factory</li>
+               <li>Managing Azure Data Factory & other Azure features</li>
                <li>Responding to customer requests</li>
             </ul>
         </>,

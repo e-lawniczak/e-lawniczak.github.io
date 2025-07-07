@@ -15,7 +15,7 @@ export default () => {
         tabs = [
             "JAVA",
             "C#",
-            "OTHER",
+            // "OTHER",
             "all",
         ] as ProjectType[],
         projects = tab != "all" ? projectsInfo.filter(p => (p.type == tab || p.type == "all")) : projectsInfo

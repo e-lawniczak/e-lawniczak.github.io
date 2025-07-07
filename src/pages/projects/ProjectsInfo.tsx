@@ -57,7 +57,7 @@ export const projectsInfo = [
             { techName: "React" },
             { techName: "Typescript" },
             { techName: "JAVA" },
-            { techName: "Springboot Framework" },
+            { techName: "Spring" },
             { techName: "Maven" },
         ],
         type: "JAVA"
@@ -72,19 +72,6 @@ export const projectsInfo = [
             { techName: "C#" },
         ],
         type: "C#"
-    },
-    {
-        title: "Shoot'em Up SDL2 Learning", githubUrl: "https://github.com/e-lawniczak/ShootEmUp.git",
-        description: <>
-            Before my first Game-Jam due to the team I assembled I had to learn how to use basics of SDL2 library.
-            <br /> <br />
-            This projects is a recreation of Shot'em Up tutorial.
-        </>,
-        techStack: [
-            { techName: "SDL2" },
-            { techName: "C++" },
-        ],
-        type: "OTHER"
-    },
+    }
 
 ] as ProjectInfo[]
