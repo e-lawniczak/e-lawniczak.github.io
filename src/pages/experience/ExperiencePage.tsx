@@ -7,7 +7,30 @@ import { BasePage } from "../../components/layout/BasePage"
 
 const workInfo = [
     {
-        title: "Fullstack Web Developer", dateStart: new Date('09-01-2019'), dateEnd: null, company: "Thinq sp. z o.o.", workplaceLogo: "",
+        title: "Software engineer", dateStart: new Date('04-30-2025'), dateEnd: null, company: "POINTER sp. z o.o.", workplaceLogo: "",
+        description: <>
+            <b>Tasks as a Software Developer </b>:
+            <ul>
+               <li>Developing new applications with .NET and React</li>
+               <li>Creating full functionalities from back end to front end based on customer needs</li>
+               <li>Maintaining and supporting ongoing projects</li>
+               <li>Managing Azure Data Factory</li>
+               <li>Responding to customer requests</li>
+            </ul>
+        </>,
+        techStack: [
+            { techName: "React" },
+            { techName: "Typescript" },
+            { techName: "C#" },
+            { techName: ".NET" },
+            { techName: "Azure Dev Ops" },
+            { techName: "Microsoft Azure " },
+            { techName: "T-SQL " },
+            { techName: "MsSQL " },
+        ]
+    },
+    {
+        title: "Fullstack Web Developer", dateStart: new Date('03-01-2023'), dateEnd: new Date('04-30-2025'), company: "Thinq sp. z o.o.", workplaceLogo: "",
         description: <>
             <b>Tasks as a Fullstack Web Developer </b>:
             <ul>

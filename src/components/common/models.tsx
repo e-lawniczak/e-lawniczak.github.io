@@ -26,7 +26,8 @@ export interface WorkInfo extends IChronologyEntry {
     techStack: TechStack[],
     workplaceLogo: string,
 }
-export type ProjectType = "web" | "game" | "all"
+export type ProjectType = "JAVA" | "C#" | "OTHER" | "all"
+
 export interface ProjectInfo extends IChronologyEntry {
     githubUrl: string,
     description: any,
@@ -35,7 +36,7 @@ export interface ProjectInfo extends IChronologyEntry {
 }
 export type SkillExperience = "Using at work" | "Used at uni" | "Using personally" | "Using personally & at work" | "Used at uni & personally"
 export type SectionType = "scripting" | "engine" | "web" | "langs" | "other"
-export interface SkillEntry{
+export interface SkillEntry {
     skill: string,
     exp: SkillExperience,
     section: SectionType

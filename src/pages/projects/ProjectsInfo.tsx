@@ -13,10 +13,11 @@ export const projectsInfo = [
         techStack: [
             { techName: "React" },
             { techName: "Typescript" },
+            { techName: "JAVA" },
             { techName: "Spring" },
             { techName: "Gradle" },
         ],
-        type: "web"
+        type: "JAVA"
     },
     {
         title: "Pizzeria CMS", githubUrl: "https://github.com/e-lawniczak/Cms.git",
@@ -26,10 +27,10 @@ export const projectsInfo = [
         techStack: [
             { techName: "React" },
             { techName: "Typescript" },
-            { techName: ".NET" },
             { techName: "C#" },
+            { techName: ".NET" },
         ],
-        type: "web"
+        type: "C#"
     },
     {
         title: "Turn based game prototype", githubUrl: "",
@@ -43,7 +44,7 @@ export const projectsInfo = [
             { techName: "JavaFX" },
             { techName: "Maven" },
         ],
-        type: "all"
+        type: "JAVA"
     },
     {
         title: "PlantHub", githubUrl: "https://github.com/e-lawniczak/plant-hub.git",
@@ -59,7 +60,7 @@ export const projectsInfo = [
             { techName: "Springboot Framework" },
             { techName: "Maven" },
         ],
-        type: "web"
+        type: "JAVA"
     },
     {
         title: "Jamming UP", githubUrl: "https://github.com/e-lawniczak/JammingUp.git",
@@ -70,18 +71,7 @@ export const projectsInfo = [
             { techName: "Unity" },
             { techName: "C#" },
         ],
-        type: "game"
-    },
-    {
-        title: "Single level shooter", githubUrl: "https://github.com/e-lawniczak/shooter.git",
-        description: <>
-            Unity made shooter prototype. My first Unity project.
-        </>,
-        techStack: [
-            { techName: "Unity" },
-            { techName: "C#" },
-        ],
-        type: "game"
+        type: "C#"
     },
     {
         title: "Shoot'em Up SDL2 Learning", githubUrl: "https://github.com/e-lawniczak/ShootEmUp.git",
@@ -94,7 +84,7 @@ export const projectsInfo = [
             { techName: "SDL2" },
             { techName: "C++" },
         ],
-        type: "game"
+        type: "OTHER"
     },
 
 ] as ProjectInfo[]

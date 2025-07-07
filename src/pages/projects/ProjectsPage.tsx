@@ -11,10 +11,11 @@ import { projectsInfo } from "./ProjectsInfo"
 
 export default () => {
     const
-        [tab, setTab] = useState<ProjectType>("web"),
+        [tab, setTab] = useState<ProjectType>("JAVA"),
         tabs = [
-            "web",
-            "game",
+            "JAVA",
+            "C#",
+            "OTHER",
             "all",
         ] as ProjectType[],
         projects = tab != "all" ? projectsInfo.filter(p => (p.type == tab || p.type == "all")) : projectsInfo

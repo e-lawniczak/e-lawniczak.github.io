@@ -27,7 +27,7 @@ export const SocialLinks = (props: { className?: string }) => {
         }
     }, []);
     return <div className={["social-links", props.className].join(" ")}>
-        <a target="blank" href="https://www.linkedin.com/in/eryk-%C5%82awniczak-289b22196/" className={`social-link ${mode}-mode linked-in`}></a>
+        <a target="blank" href="https://www.linkedin.com/in/eryk-lawniczak" className={`social-link ${mode}-mode linked-in`}></a>
         <a target="blank" href="https://github.com/e-lawniczak" className={`social-link ${mode}-mode git`}></a>
         <a target="blank" href="mailto:eryk.lawniczak@gmail.com" className={`social-link ${mode}-mode email`}></a>
     </div>
