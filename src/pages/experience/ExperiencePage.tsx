@@ -58,7 +58,7 @@ export default () => {
     return <BasePage pageCssClass="experience-page">
         <div className="wrapper">
             <PageTitle>Experience</PageTitle>
-            <EntryList className="experience-info" >
+            <EntryList className="experience-info" startOverride="2023" >
                 {workInfo.map(e => <ChronologyEntry info={e} entryType={"wrk"} />)}
             </EntryList>
         </div>
