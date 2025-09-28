@@ -30,8 +30,8 @@ export default () => {
                 Troughout my education and work I've worked with a lot o languages and technologies. I feel confident in learning and using any of them but I prefer working mainly with:
                 <ul>
                     <li><b>React/Typescript/JavaScript</b></li>
-                    <li><b>C#</b></li>
                     <li><b>JAVA</b></li>
+                    <li><b>C#</b></li>
                 </ul>
             </p>
             <p>Developing many applications over many years I obviously am proficient with <b>SQL</b>, <b>Git</b>, <b>Docker</b> and <b>agile</b> practices</p>

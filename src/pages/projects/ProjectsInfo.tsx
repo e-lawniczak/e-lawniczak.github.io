@@ -46,22 +46,22 @@ export const projectsInfo = [
         ],
         type: "JAVA"
     },
-    {
-        title: "PlantHub", githubUrl: "https://github.com/e-lawniczak/plant-hub.git",
-        description: <>
-            Project made in group of 3 as part of Mobile Systems course. It's a prototype of web application that allows it's users to share plants. Like any trading platform it allows it's users to post offers with details of a plant, description and location allowing to exchange unwanted plants and help preserving them.
-            <br /><br />
-            My job in the project was creting both front-end and back-end part of CRUD regarding offers and images attached to those offers, liking users. I was also responsible for creting basic components and core project parts such as routing on the front-end side.
-        </>,
-        techStack: [
-            { techName: "React" },
-            { techName: "Typescript" },
-            { techName: "JAVA" },
-            { techName: "Spring" },
-            { techName: "Maven" },
-        ],
-        type: "JAVA"
-    },
+    // {
+    //     title: "PlantHub", githubUrl: "https://github.com/e-lawniczak/plant-hub.git",
+    //     description: <>
+    //         Project made in group of 3 as part of Mobile Systems course. It's a prototype of web application that allows it's users to share plants. Like any trading platform it allows it's users to post offers with details of a plant, description and location allowing to exchange unwanted plants and help preserving them.
+    //         <br /><br />
+    //         My job in the project was creting both front-end and back-end part of CRUD regarding offers and images attached to those offers, liking users. I was also responsible for creting basic components and core project parts such as routing on the front-end side.
+    //     </>,
+    //     techStack: [
+    //         { techName: "React" },
+    //         { techName: "Typescript" },
+    //         { techName: "JAVA" },
+    //         { techName: "Spring" },
+    //         { techName: "Maven" },
+    //     ],
+    //     type: "JAVA"
+    // },
     {
         title: "Jamming UP", githubUrl: "https://github.com/e-lawniczak/JammingUp.git",
         description: <>
